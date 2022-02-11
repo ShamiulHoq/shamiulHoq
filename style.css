@@ -1,0 +1,109 @@
+/* body{
+    background-image: linear-gradient(75deg, rgb(244, 255, 244),rgb(253, 253, 238));
+} */
+#title{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.details{
+    margin-top: 45px;
+    text-align: justify;
+}
+
+#profilePic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 10px 10px 20px black;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+#profilePic:hover{
+    transform: scale(1.05);
+    box-shadow: 12px 12px 25px black;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.expo{
+    margin-top: 75px;
+}
+
+.part{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.5s;
+}
+.part:hover{
+    box-shadow: none;
+    transform: scale(0.97);
+}
+.part1{
+    background-color: rgb(22, 129, 161);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.5s;
+}
+.part1:hover{
+    box-shadow: none;
+    transform: scale(0.97);
+}
+.part2{
+    background-color: rgb(13, 134, 29);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.5s;
+}
+.part2:hover{
+    box-shadow: none;
+    transform: scale(0.97);
+}
+
+.line{
+    margin-top: 50px;
+}
+
+#darkbtn{
+    border: none;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+#darkbtn:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 5px 5px black;
+}
+
+#whitebtn{
+    border: none;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    transition: 0.5s;
+    display: none;
+}
+#whitebtn:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
